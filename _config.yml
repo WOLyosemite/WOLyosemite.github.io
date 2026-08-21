@@ -1,2 +1,13 @@
-theme: jekyll-theme-minimal
-title: 我的博客
+title: WOLyosemite
+description: WOLyosemite 的个人博客，记录技术、阅读与生活。
+author: WOLyosemite
+url: https://wolyosemite.github.io
+baseurl: ""
+lang: zh-CN
+timezone: Asia/Shanghai
+markdown: kramdown
+permalink: /posts/:title/
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
